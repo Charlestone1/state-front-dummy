@@ -68,10 +68,10 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to="/" onClick={toggleHome}>
-              Naira
+            Identify
             </SocialLogo>
             <WebsiteRights>
-              Naira &copy; {new Date().getFullYear()} All rights reserved.
+            Identify &copy; {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">

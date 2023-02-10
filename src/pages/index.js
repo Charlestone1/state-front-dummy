@@ -7,9 +7,9 @@ import Services from "../components/Services";
 import Footer from "../components/Footer";
 import {
   homeObjOne,
-  homeObjTwo,
   homeObjThree,
 } from "../components/InfoSection/Data";
+import Faqs from "../components/Faqs";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,9 +23,9 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
-      <Services />
       <InfoSection {...homeObjThree} />
+      <Services />
+      <Faqs />
       <Footer />
     </>
   );

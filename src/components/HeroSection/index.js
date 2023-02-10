@@ -26,14 +26,13 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
+        <HeroH1>Identity Management made easy</HeroH1>
         <HeroP>
-          Sign up for a new account today and receive $250 in credit towards
-          your next payment.
+          Sign up today to access the Identity Management system, to enable your organization authenticate pesonnel identity. 
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="signup"
+            href="https://state-app.vercel.app/register"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary="true"

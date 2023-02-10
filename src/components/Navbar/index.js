@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              Naira
+              Identify
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
             </NavMenu>
             <NavBtn>
-              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+              <NavBtnLink href="https://state-app.vercel.app/login">Sign In</NavBtnLink>
             </NavBtn>
           </NavbarContainer>
         </Nav>
