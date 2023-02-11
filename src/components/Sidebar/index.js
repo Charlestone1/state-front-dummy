@@ -19,12 +19,12 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink onClick={toggle} to="about">About</SidebarLink>
-          <SidebarLink onClick={toggle} to="discover">Discover</SidebarLink>
+          <SidebarLink onClick={toggle} to="support">Support</SidebarLink>
           <SidebarLink onClick={toggle} to="services">Services</SidebarLink>
-          <SidebarLink onClick={toggle} to="signup">Sign Up</SidebarLink>
+          <SidebarLink onClick={toggle} to="faq">FAQs</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SideBarRoute to="/signin">Sign In</SideBarRoute>
+          <SideBarRoute href="https://state-app.vercel.app/login">Sign In</SideBarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

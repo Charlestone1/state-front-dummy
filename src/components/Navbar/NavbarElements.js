@@ -99,7 +99,7 @@ export const NavBtnLink = styled.a`
   white-space: nowrap;
   padding: 10px 22px;
   color: #fff;
-  font-size: 16px;
+  font-size: 1rem;
   outline: none;
   border: 1px solid white;
   cursor: pointer;
